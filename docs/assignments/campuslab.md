@@ -189,7 +189,9 @@ ip route 192.168.100.0 255.255.255.0 172.16.0.1
 ---
 
 # Ansible-palvelimen valmistelu
-Tehdään labran käyttöön uusi / uudet wsl distrot.
+
+Tehdään labran käyttöön uusi / uudet wsl distrot. Ennen aloittamista, vaihda wsl verkon tila muotoon mirrored. Tämä onnistuu yksinkertaisimmin windows sovelluksella wsl settings (löytyy start-valikosta)
+
 ## WSL 
 
 ```powershell
